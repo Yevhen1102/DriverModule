@@ -1,7 +1,6 @@
 package org.example.professions;
 
 public class Driver {
-    String message1 = "I\'m driving!";
     private String carModel;
 
     public Driver(String carModel) {
@@ -9,11 +8,8 @@ public class Driver {
     }
 
     public void displayInfo1() {
-        System.out.println(message1);
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
         System.out.println("CarModel = " + this.carModel);
+        System.out.println("I'm driving!");
     }
 
 
